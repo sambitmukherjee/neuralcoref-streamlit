@@ -6,7 +6,9 @@
 # pip3 install streamlit
 
 import spacy
+import en_core_web_sm
 import en_core_web_md
+# import en_core_web_lg
 import neuralcoref
 import streamlit as st
 
