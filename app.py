@@ -85,7 +85,7 @@ with st.form(key="form_key"):
 					highlighted_original_text = highlighted_original_text + token.text + token.whitespace_
 			st.markdown(' > "' + highlighted_original_text + '"', unsafe_allow_html=True)
 		else:
-			st.markdown(' > "' + doc.text + '"', unsafe_allow_html=True)
+			st.markdown(' > "' + doc.text + '"')
 
 		if doc._.has_coref:
 			st.markdown("Any coreferences found? <span style='color: #17B169;'>YES</span>", unsafe_allow_html=True)
